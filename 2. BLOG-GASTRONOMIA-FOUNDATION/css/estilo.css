@@ -1,0 +1,42 @@
+/* IMAGEN FONDO BODY*/
+body{
+  background-image: url('../img/FONDO.jpg');
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+}
+/* COLOR CONTENIDO */
+#color-contenido{
+  opacity: 1;
+  background-color: LightGray;
+}
+h2, h6 {
+  color: white;
+}
+#color-texto{
+    color: #bf1363;
+}
+.button-width{
+  width: 100%;
+  background: transparent;
+  border-color: #bf1363;
+}
+.platos{
+  padding-bottom: 15px;
+}
+/* COLORES DE DIV */
+.color-contenido{
+  background-color:  #fbeee6;
+
+}
+.color-navegacion{
+  background-color:  #f2d7d5;
+}
+/* IMAGEN DE COMENTARIOS */
+.imagen-comentario{
+  width: 100%;
+}

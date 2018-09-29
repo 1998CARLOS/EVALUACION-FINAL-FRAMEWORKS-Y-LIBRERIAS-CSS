@@ -1,0 +1,94 @@
+/* COLOR BODY */
+.color-body{
+  background:  	#D3D3D3;
+  box-sizing: content-box;
+}
+/* HEADER */
+.Encabezado{
+  background: white;
+}
+.img-logo{
+  width: 40%;
+}
+/* ICONOS REDES SOCIALES */
+.fa {       /*DISEÑO DE LOS ICONOS*/
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+}
+.fa:hover {
+  opacity: 0.9;  /*OPACIDAD DE LOS ICONOS */
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+#redes-sociales{
+  padding-right: 50px;
+  padding-top: 130px;
+  text-align: right;
+}
+/* BARRA DE NAVEGACION */
+.nav{
+  background: orange;
+}
+.espacio-columna{
+  min-height: 30px;
+}
+.contenido{
+  background-color: white;
+  min-height: 350px;
+}
+/* CONTENIDO */
+#Comentarios{
+  padding: 10px;
+}
+.img-contenido{
+  width: 100%;
+  height: 150px;
+  padding-top: 20px;
+}
+.search-form{
+  padding: 20px;
+}
+/* DESKTOP - MOVIL*/
+@media (max-width: 770px) {
+  .img-logo{
+    width: 50%;
+  }
+  .fa {       /*DISEÑO DE LOS ICONOS*/
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  #redes-sociales{
+    text-align: center;
+    padding-left: 50px;
+  }
+
+}
